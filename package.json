@@ -1,0 +1,15 @@
+{
+  "name": "majordome",
+  "version": "0.1.0-b",
+  "description": "Majordome serves files for you",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall" : "mkdir ./files/"
+  },
+  "author": "hugohil",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.1"
+  }
+}
